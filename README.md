@@ -2,7 +2,7 @@
 
 Great that you are interested in working with us! Every day we work with a large group of developers on the websites of Centraal Beheer, Interpolis, FBTO and Avero. We really want to expand this group of developers.
 
-## What is the Code challenge?
+## What is the Code challenge?S
 The Code challenge is an accessible front-end assignment where you build a number of new functionalities for an example application. We review your code and if we like your solution, we would like to invite you for a first introductory meeting.
 
 ## The challenge
@@ -11,7 +11,7 @@ We work a lot with forms. Forms to report your damage, to take out a new insuran
 These forms are often built in Angular. 
 
 In this code challenge you will work with an example form. The styling (we use Tailwind https://tailwindcss.com/ for this challenge) and html is already done but we are still missing some functionality.
-
+S
 ![Screenshot](screenshot.png)
 
 ### Requirements:
