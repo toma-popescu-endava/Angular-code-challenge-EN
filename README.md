@@ -45,7 +45,7 @@ Functionalities:
         - Chopper
         - Zijspan
     - Possible subtypes for vehicle _scooter_:
-        -For _scooters_, the user cannot choose a subtype
+        - For _scooters_, the user cannot choose a subtype
 - Implement license plate formatting as follows:
     - Insert a dash between the numbers and letters of the license plate. AA14BB then becomes AA-14-BB
     - For letter combinations of 4 characters: insert a dash after 2 characters. 12AABB then becomes 12-AA-BB
