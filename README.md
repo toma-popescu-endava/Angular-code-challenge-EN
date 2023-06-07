@@ -15,7 +15,7 @@ In this code challenge you will work with an example form. The styling (we use T
 ![Screenshot](screenshot.png)
 
 ### Requirements:
-Build the example form (see src/app/app.component.html for the current html) further. We expect your application to contain at least (part of) the following requirements:
+Finish the example form (see src/app/app.component.html for the existing html). We expect your application to contain at least (part of) the following requirements:
 
 Functionalities:
 - The user must be able to choose the type of vehicle
