@@ -1,34 +1,34 @@
 # Angular code challenge
 
-Super tof dat je interesse hebt om bij ons aan de slag te gaan! We werken elke dag met een grote groep van developers aan de websites van Centraal Beheer, Interpolis, FBTO en Avero. Deze groep van developers willen we heel graag uitbreiden. Daarbij vinden we opleiding, werkervaring of achtergrond eigenlijk helemaal niet zo waardevol. Belangrijker is dat je talent hebt en de juiste motivatie. 
+Great that you are interested in working with us! Every day we work with a large group of developers on the websites of Centraal Beheer, Interpolis, FBTO and Avero. We really want to expand this group of developers. In addition, we don't find education, work experience or background really that valuable at all. It is more important that you have talent and the right motivation. 
 
-## Wat is de Code challenge?
-De Code challenge is een laagdrempelige front-end opdracht waarbij je een aantal nieuwe functionaliteiten bouwt voor een voorbeeld-applicatie. Wij reviewen je code, vinden we jouw oplossing tof? Dan nodigen we je graag uit voor een eerste kennismakingsgesprek.
+## What is the Code challenge?
+The Code challenge is an accessible front-end assignment where you build a number of new functionalities for an example application. We review your code and if we like your solution, we would like to invite you for a first introductory meeting.
 
-## De challenge
-We werken veel met formulieren. Formulieren om je schade te melden, een nieuwe verzekering af te sluiten, etc.
+## The challenge
+We work a lot with forms. Forms to report your damage, to take out a new insurance policy, etc.
 
-Deze formulieren zijn vaak gebouwd in Angular. 
+These forms are often built in Angular. 
 
-In deze code challenge ga je aan de slag met een voorbeeldformulier. De styling (we gebruiken voor deze challenge Tailwind https://tailwindcss.com/) en html is al klaar maar we missen nog wat functionaliteit.
+In this code challenge you will work with an example form. The styling (we use Tailwind https://tailwindcss.com/ for this challenge) and html is already done but we are still missing some functionality.
 
 ![Screenshot](screenshot.png)
 
 ### Requirements:
-Bouw het voorbeeldformulier (zie src/app/app.component.html voor de huidige html) verder af. We verwachten dat je applicatie in ieder geval (een deel van) de volgende requirements bevat:
+Build the example form (see src/app/app.component.html for the current html) further. We expect your application to contain at least (part of) the following requirements:
 
-Functionaliteiten:
-- De gebruiker moet het type voertuig kunnen kiezen
-    - Mogelijke keuzes:
+Functionalities:
+- The user must be able to choose the type of vehicle
+    - Possible choices:
         - auto
         - motor
         - scooter
-- De afbeelding rechts van het formulier moet wijzigen op basis van de keuze van de gebruiker. De volgende combinaties zijn mogelijk:
+- The image to the right of the form should change based on the user's choice. The following combinations are possible:
     - auto: assets/auto.jpg
     - motor: assets/motor.jpg
     - scooter: assets/scooter.jpg     
-- De gebruiker moet het subtype van het voertuig kunnen kiezen.
-    - Mogelijke subtypes voor voertuig auto:
+- The user must be able to choose the subtype of the vehicle.
+    - Possible subtypes for vehicle _auto_
         - Hatchback
         - Sedan
         - Station
@@ -36,7 +36,7 @@ Functionaliteiten:
         - Coupé
         - Multi Purpose Vehicle (MVP)
         - Terreinauto
-    - Mogelijke subtypes voor voertuig motor:
+    - Possible subtypes for vehicle _motor_:
         - All-road
         - Naked
         - Enduro
@@ -44,27 +44,27 @@ Functionaliteiten:
         - Toermotor
         - Chopper
         - Zijspan
-    - Mogelijke subtypes voor voertuig scooter:
-        - Voor scooters kan de gebruiker geen subtype kiezen
-- Implementeer kenteken formatting als volgt:
-    - Voeg een streepje in tussen de cijfers en letters van het kenteken. AA14BB wordt dan dus AA-14-BB
-    - Bij lettercombinaties van 4 karakters: voeg een streepje in na 2 karakters. 12AABB wordt dan dus 12-AA-BB
-- Implementeer een basis kenteken validatie:
-    - Maak gebruik van de volgende library om kenteken validatie te implementeren: https://www.npmjs.com/package/rdw-kenteken-check
-    - Is de ingevoerde waarde invalid? Toon dan de volgende error-message (on-blur van het veld): "Helaas is het ingevoerde kenteken niet geldig. Probeer het opnieuw." 
+    - Possible subtypes for vehicle _scooter_:
+        -For _scooters_, the user cannot choose a subtype
+- Implement license plate formatting as follows:
+    - Insert a dash between the numbers and letters of the license plate. AA14BB then becomes AA-14-BB
+    - For letter combinations of 4 characters: insert a dash after 2 characters. 12AABB then becomes 12-AA-BB
+- Implement basic license plate validation:
+    - Use the following library to implement license plate validation: https://www.npmjs.com/package/rdw-kenteken-check
+    - Is the entered value invalid? Then show the following error message (on-blur of the field): "Helaas is het ingevoerde kenteken niet geldig. Probeer het opnieuw." 
 
-### Technische vereisten:
-- Splits de html op in logische Angular componenten
-- Maak gebruik van Angular Reactive forms om je formulier op te bouwen
+### Technical requirements:
+- Split the html into logical Angular components
+- Use Angular Reactive forms to build your form
     
-## Extra uitdaging?
-- Wil je laten zien wat je nog meer kunt? Kun je bijvoorbeeld al unit testen schrijven, heb je ervaring met NGRX of ben je dol op UX en vind je de huidige opzet wel wat mager? Ga lekker aan de gang met je eigen idee en laat ons zien wat je kunt! Je mag natuurlijk ook Tailwind compleet verwijderen en je eigen css-implementatie toevoegen.
+## Extra challenge?
+- Do you want to show what else you can do? For example, can you already write unit tests, do you have experience with NGRX or do you love UX and do you think the current set-up is a bit thin? Get started with your own idea and show us what you can do! Of course you can also completely remove Tailwind and add your own CSS implementation.
 
-## Randvoorwaarden
-- Om de challenge gelijkwaardig te houden voor alle kandidaten verwachten we dat je niet meer dan 2 - max 4 uur aan de challenge besteedt. Nog niet klaar met alle requirements na 4 uur? Geen probleem, stuur gewoon in wat je hebt. We vinden kwaliteit en oog voor details veel belangrijker dan dat je alle requirements hebt gerealiseerd.
-- Maak een fork van deze Github naar je eigen Github account en push jouw oplossing. Stuur ons een linkje van je oplossing.
+## Conditions
+- To keep the challenge equal for all candidates, we expect you to spend no more than 2 - max 4 hours on the challenge. Not finished with all requirements after 4 hours? No problem, just send in what you have. We find quality and an eye for details much more important than that you have realized all the requirements.
+- Fork this Github to your own Github account and push your solution. Send us a link of your solution.
 
-## Technische details
+## Technical details
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.3.
 
