@@ -1,6 +1,6 @@
 # Angular code challenge
 
-Great that you are interested in working with us! Every day we work with a large group of developers on the websites of Centraal Beheer, Interpolis, FBTO and Avero. We really want to expand this group of developers. In addition, we don't find education, work experience or background really that valuable at all. It is more important that you have talent and the right motivation. 
+Great that you are interested in working with us! Every day we work with a large group of developers on the websites of Centraal Beheer, Interpolis, FBTO and Avero. We really want to expand this group of developers.
 
 ## What is the Code challenge?
 The Code challenge is an accessible front-end assignment where you build a number of new functionalities for an example application. We review your code and if we like your solution, we would like to invite you for a first introductory meeting.
