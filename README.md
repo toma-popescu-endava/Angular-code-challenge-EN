@@ -56,9 +56,7 @@ Functionalities:
 ### Technical requirements:
 - Split the html into logical Angular components
 - Use Angular Reactive forms to build your form
-    
-## Extra challenge?
-- Do you want to show what else you can do? For example, can you write unit tests, do you have experience with NGRX or do you love UX and do you think the current set-up could do with some improvement? Get started with your own ideas and show us what you can do! Of course you can also completely remove Tailwind and substitute your own CSS implementation.
+- Use NgRx to manage the data in the state and incorporate some effects
 
 ## Conditions
 - To keep the challenge on a level playing field for all candidates, we expect you to spend no more than at minimum 2 and at maximum 4 hours on the challenge. Not finished with all requirements after 4 hours? No problem, just send in what you have. We find quality and an eye for details much more important than that you have realized all the requirements.
